@@ -105,6 +105,11 @@ git = "https://github.com/mozilla/neqo"
 tag = "v0.12.2"
 replace-with = "vendored-sources"
 
+[source."git+https://github.com/philluple/pdslib?rev=7b5cfb86c77ab14f2ba1ddcfcedea62257e77f7d"]
+git = "https://github.com/philluple/pdslib"
+rev = "7b5cfb86c77ab14f2ba1ddcfcedea62257e77f7d"
+replace-with = "vendored-sources"
+
 [source."git+https://github.com/servo/rust-cssparser?rev=958a3f098acb92ddacdce18a7ef2c4a87ac3326f"]
 git = "https://github.com/servo/rust-cssparser"
 rev = "958a3f098acb92ddacdce18a7ef2c4a87ac3326f"

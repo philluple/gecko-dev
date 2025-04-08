@@ -1,0 +1,20 @@
+schema: 1
+
+bugzilla:
+  product: Core
+  component: General
+
+origin:
+  name: pdslib
+  description: "Personal data structures library for Firefox testing"
+  url: https://github.com/philluple/pdslib
+  license: MIT
+  license-file: LICENSE
+  release: "v0.1.0"
+  revision: "local-dev"
+
+vendoring:
+  url: https://github.com/philluple/pdslib
+  source-hosting: github
+  flavor: rust
+  tracking: commit
