@@ -8,3 +8,12 @@
 // toolkit/library/rust/shared/lib.rs.
 extern crate gkrust_shared;
 extern crate pdslib;
+
+#[no_mangle]
+pub extern "C" fn pdslib_dummy_link() {
+    let _ = pdslib::some_public_function(); // replace with any public function
+}
+
+pub fn some_public_function() -> u32 {
+  42
+}
