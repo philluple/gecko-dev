@@ -164,3 +164,6 @@ pub unsafe extern "C" fn debug_log(target: *const c_char, message: *const c_char
     // NOTE: The `info!` log macro is used here because we have the `release_max_level_info` feature set.
     info!(target: CStr::from_ptr(target).to_str().unwrap(), "{}", CStr::from_ptr(message).to_str().unwrap());
 }
+
+mod pdslib_test;
+pub use pdslib_test::test_pdslib_builds;
