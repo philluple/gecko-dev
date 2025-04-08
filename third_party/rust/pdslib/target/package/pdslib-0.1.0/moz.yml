@@ -1,0 +1,15 @@
+schema: 1
+
+bugzilla:
+  product: Core
+  component: "General"
+
+origin:
+  name: pdslib
+  description: On-device DP budgeting for private attribution
+  url: https://github.com/your-org/pdslib  # or local path
+  license: MIT
+  release: v0.1.0
+
+vendoring:
+  source-hosting: github

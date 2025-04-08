@@ -226,3 +226,5 @@ SPHINX_TREES["content-security"] = "docs/content-security"
 SPHINX_TREES["jsloader"] = "docs/jsloader"
 
 include("build/templates.mozbuild")
+
+RUST_LIBRARY_FEATURES += ['pdslib']
