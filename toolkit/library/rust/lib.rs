@@ -7,3 +7,4 @@
 // declarations or similar to the gkrust-shared crate in
 // toolkit/library/rust/shared/lib.rs.
 extern crate gkrust_shared;
+extern crate pdslib;
