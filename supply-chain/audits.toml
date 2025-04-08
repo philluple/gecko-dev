@@ -692,6 +692,12 @@ importable = false
 notes = "This is a trivial workaround copied from elsewhere in m-c, specifically qcms."
 
 [[audits.anyhow]]
+who = "phillip"
+criteria = "safe-to-deploy"
+version = "1.0.97"
+notes = "Trusted crate for local testing"
+
+[[audits.anyhow]]
 who = "Mike Hommey <mh+mozilla@glandium.org>"
 criteria = "safe-to-deploy"
 delta = "1.0.57 -> 1.0.61"
