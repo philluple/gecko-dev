@@ -33,6 +33,10 @@ SOURCES += [
 ]
 
 # We allow warnings for third-party code that can be updated from upstream.
+
+LOCAL_INCLUDES += ['.']
+DEFINES['HAVE_MOZZCONF_H'] = True
+
 AllowCompilerWarnings()
 
 # ... most warnings, anyway. https://github.com/madler/zlib/issues/633

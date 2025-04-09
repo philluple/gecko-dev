@@ -1,10 +1,11 @@
+# revision: 7b5cfb86c77ab14f2ba1ddcfcedea62257e77f7d
+
 [package]
 name = "pdslib"
 version = "0.1.0"
 edition = "2021"
 license = "MPL-2.0"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [lib]
 name = "pdslib"
 crate-type = ["cdylib", "lib"]

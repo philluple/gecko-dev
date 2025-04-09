@@ -160,6 +160,11 @@ USE_LIBS += [
     "sqlite",
 ]
 
+USE_LIBS += [
+    "zlib",
+]
+
+
 if not CONFIG["USE_LIBZ_RS"]:
     USE_LIBS += [
         "zlib",
